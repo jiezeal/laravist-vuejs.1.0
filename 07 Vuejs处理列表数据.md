@@ -30,3 +30,15 @@ v-for小实例  09.v-for.html
 </script>
 ```
 
+:class小实例
+```
+<style>
+    *{ margin: 0; padding: 0; }
+    body{ margin: 50px; }
+    ul{ list-style: none; }
+    button{ border: none; padding: 5px; color: #FFF; }
+    .completed{ text-decoration: line-through; }
+</style>
+
+
+```
