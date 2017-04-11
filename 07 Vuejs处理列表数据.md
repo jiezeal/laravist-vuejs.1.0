@@ -51,7 +51,6 @@ v-for小实例  09.v-for.html
     new Vue({
         el: "#app",
         data: {
-            something: true,
             tasks: [
                 {body:'go to the movie', completed:false},
                 {body:'learn vue js in action', completed:true},
