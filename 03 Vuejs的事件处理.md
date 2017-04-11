@@ -54,5 +54,48 @@
 
 事件处理小实例之点击累加
 ```
+<style>
+    *{ margin: 0; padding: 0; }
+    body{ margin: 50px; }
+</style>
 
+<div id="app">
+    <button type="button" v-on:click="updateCount">Submit {{ count }}</button>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+          count: 0
+        },
+        methods: {
+            updateCount: function(){
+                this.count++;
+            }
+        }
+    });
+</script>
+```
+或
+```
+<style>
+    *{ margin: 0; padding: 0; }
+    body{ margin: 50px; }
+</style>
+
+<div id="app">
+    <button type="button" v-on:click="count++">Submit {{ count }}</button>
+</div>
+
+<script src="vue.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+          count: 0
+        }
+    });
+</script>
 ```
