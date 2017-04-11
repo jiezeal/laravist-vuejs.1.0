@@ -2,3 +2,29 @@
 
 https://cdn.bootcss.com/vue/1.0.14/vue.min.js
 
+小例子
+```
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue js</title>
+</head>
+<body>
+    <div id="app">
+        <h1>{{ message }}</h1>
+    </div>
+
+    <script src="vue.min.js"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                message: "Hello Vue!"
+            }
+        });
+    </script>
+</body>
+</html>
+```
+
