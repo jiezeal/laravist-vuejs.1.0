@@ -49,3 +49,7 @@
 </script>
 ```
 
+组件化小实例 Likes与Dislikes
+```
+
+```
