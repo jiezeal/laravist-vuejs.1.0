@@ -30,7 +30,7 @@ v-for小实例  09.v-for.html
 </script>
 ```
 
-:class小实例
+:class小实例  10.class.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
@@ -40,5 +40,24 @@ v-for小实例  09.v-for.html
     .completed{ text-decoration: line-through; }
 </style>
 
+<div id="app">
+    <ul>
+        <li :class="task.completed ? 'completed' : ''" v-for="task in tasks">{{ task.body }}</li>
+    </ul>
+</div>
 
+<script src="vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            something: true,
+            tasks: [
+                {body:'go to the movie', completed:false},
+                {body:'learn vue js in action', completed:true},
+                {body:'go to the shop', completed:false}
+            ]
+        }
+    });
+</script>
 ```
