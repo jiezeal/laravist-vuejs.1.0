@@ -121,7 +121,7 @@ v-for小实例  09.v-for.html
 </script>
 ```
 
-简单版todo应用
+简单版todo应用  11.sample-todo.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
