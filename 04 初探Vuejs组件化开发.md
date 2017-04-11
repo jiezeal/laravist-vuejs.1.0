@@ -1,6 +1,6 @@
 #初探Vuejs组件化开发
 
-组件开发小实例
+组件开发小实例  06.counter.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
