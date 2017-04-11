@@ -90,4 +90,4 @@ v-for小实例  09.v-for.html
     });
 </script>
 ```
-注：
+注：vue 1.0.14 这个版本v-class不能用，需要使用:class
