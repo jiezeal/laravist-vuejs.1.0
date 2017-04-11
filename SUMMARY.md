@@ -6,3 +6,4 @@
 * [06 computed的应用场景](06 computed的应用场景.md)
 * [07 Vuejs处理列表数据](07 Vuejs处理列表数据.md)
 * [08 Vuejs组件化开发todo应用](08 Vuejs组件化开发todo应用.md)
+* [09 添加任务总数和删除任务](09 添加任务总数和删除任务.md)
