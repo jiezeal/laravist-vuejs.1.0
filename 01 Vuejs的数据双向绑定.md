@@ -40,6 +40,9 @@ https://cdn.bootcss.com/vue/1.0.14/vue.min.js
     <div id="app">
         <h1>{{ message }}</h1>
         <input type="text" v-model="message">
+        <pre>
+            {{ $data | json }}
+        </pre>
     </div>
 
     <script src="vue.min.js"></script>
