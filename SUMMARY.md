@@ -5,3 +5,4 @@
 * [05 Vuejs开发的两个彩蛋](05 Vuejs开发的两个彩蛋.md)
 * [06 computed的应用场景](06 computed的应用场景.md)
 * [07 Vuejs处理列表数据](07 Vuejs处理列表数据.md)
+* [08 Vuejs组件化开发todo应用](08 Vuejs组件化开发todo应用.md)
