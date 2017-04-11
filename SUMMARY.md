@@ -3,3 +3,4 @@
 * [03 Vuejs的事件处理](03 Vuejs的事件处理.md)
 * [04 初探Vuejs组件化开发](04 初探Vuejs组件化开发.md)
 * [05 Vuejs开发的两个彩蛋](05 Vuejs开发的两个彩蛋.md)
+* [06 computed的应用场景](06 computed的应用场景.md)
