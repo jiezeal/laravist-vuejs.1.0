@@ -1,6 +1,6 @@
 #Vuejs的事件处理
 
-事件处理小实例  04.v-on.html
+事件处理小实例  04.v-on.submit.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
@@ -52,7 +52,7 @@
 </script>
 ```
 
-事件处理小实例之点击累加
+事件处理小实例之点击累加  05.v-on.click.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
