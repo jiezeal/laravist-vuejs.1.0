@@ -22,3 +22,30 @@
     });
 </script>
 ```
+或者
+```
+<style>
+    *{ margin: 0; padding: 0; }
+    body{ margin: 50px; }
+</style>
+
+<div id="app">
+    <counter></counter>
+</div>
+
+<template id="counter-template">
+    <h1>Hello World</h1>
+</template>
+
+<script src="vue.min.js"></script>
+<script>
+    Vue.component('counter', {
+        template: '#counter-template'
+    });
+
+    new Vue({
+        el: '#app'
+    });
+</script>
+```
+
