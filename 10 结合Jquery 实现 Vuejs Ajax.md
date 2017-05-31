@@ -106,3 +106,64 @@ welcome.blade.php
     </body>
 </html>
 ```
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laravel</title>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <tasks-app list="{{ $tasks }}"></tasks-app>
+        </div>
+        <template id="tasks-template">
+            <h1>My Task</h1>
+            <ul class="list-group">
+                <li class="list-group-item" v-for="task in list">
+                    @{{ task.body }}
+                    <strong @click="deleteTask(task)">X</strong>
+                </li>
+            </ul>
+        </template>
+        <script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/vue/1.0.14/vue.min.js"></script>
+        <script>
+            Vue.component('tasks-app', {
+                template: '#tasks-template',
+                data: function(){
+                    return {
+                        list: []
+                    }
+                },
+                created: function(){
+                    var vm = this;
+
+                    $.ajax({
+                        type: 'get',
+                        url: 'api/tasks',
+                        dataType: 'json',
+                        success: function(response, status, xhr){
+                            vm.list = response;
+                        }
+                    });
+                },
+                methods: {
+                    deleteTask: function(task){
+                        this.list.$remove(task);
+                    }
+                }
+            });
+
+            new Vue({
+                el: 'body'
+            });
+        </script>
+    </body>
+</html>
+
+```
