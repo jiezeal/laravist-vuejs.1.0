@@ -1,6 +1,6 @@
 #Vuejs的事件处理
 
-事件处理小实例  04.v-on.submit.html
+事件处理小实例  vue/04.v-on.submit.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
