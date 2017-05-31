@@ -2,3 +2,11 @@
 
 php artisan make:controller TaskController --resource
 
+web.php
+```
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::resource('api/tasks', 'TaskController');
+```
