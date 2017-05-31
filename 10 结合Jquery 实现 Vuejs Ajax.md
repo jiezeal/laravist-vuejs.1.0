@@ -17,5 +17,10 @@ public function up()
 
 database/factories/ModelFactory.php
 ```
+$factory->define(App\Task::class, function (Faker\Generator $faker) {
+    return [
+        'body' => $faker->paragraph
+    ];
+});
 
 ```
