@@ -1,6 +1,6 @@
 #Vuejs组件化开发todo应用
 
-组件化开发todo应用  12.component-todo.html
+组件化开发todo应用  vue/12.component-todo.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
