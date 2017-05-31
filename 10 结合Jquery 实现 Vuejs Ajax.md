@@ -165,5 +165,4 @@ welcome.blade.php
         </script>
     </body>
 </html>
-
 ```
