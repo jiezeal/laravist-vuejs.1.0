@@ -1,6 +1,6 @@
 #computed的应用场景
 
-computed小实例  08.computed.html
+computed小实例  vue/08.computed.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
