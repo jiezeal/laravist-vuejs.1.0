@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue js</title>
+    <style>
+        *{ margin: 0; padding: 0; }
+        body{ margin: 50px; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <counter></counter>
+    </div>
+
+    <script src="vue.min.js"></script>
+    <script>
+        Vue.component('counter', {
+            template: '<h1>Hello World</h1>'
+        });
+
+        new Vue({
+            el: '#app'
+        });
+    </script>
+</body>
+</html>
