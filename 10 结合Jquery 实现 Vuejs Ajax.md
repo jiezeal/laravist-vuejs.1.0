@@ -38,3 +38,7 @@ Route::get('/', function () {
 });
 ```
 
+welcome.blade.php
+```
+
+```
