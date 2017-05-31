@@ -27,3 +27,4 @@ $factory->define(App\Task::class, function (Faker\Generator $faker) {
 php artisan migrate
 php artisan tinker
 factory('App\Task', 20)->create()
+
