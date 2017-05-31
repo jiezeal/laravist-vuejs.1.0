@@ -30,3 +30,11 @@ php artisan migrate
 php artisan tinker
 factory('App\Task', 20)->create()
 
+web.php
+```
+Route::get('/', function () {
+    $tasks = \App\Task::latest()->get();
+    return view('welcome', compact('tasks'));
+});
+```
+
