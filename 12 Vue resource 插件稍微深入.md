@@ -10,3 +10,8 @@ Route::get('/', function () {
 
 Route::resource('api/tasks', 'TaskController');
 ```
+
+Task.php
+```
+protected $fillable = ['body'];
+```
