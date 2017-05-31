@@ -1,6 +1,6 @@
 #简单好用的v-show
 
-v-show小实例  03.v-show.html
+v-show小实例  vue/03.v-show.html
 ```
 <style>
     *{
