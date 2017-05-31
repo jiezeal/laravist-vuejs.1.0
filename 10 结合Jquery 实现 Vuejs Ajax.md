@@ -24,3 +24,5 @@ $factory->define(App\Task::class, function (Faker\Generator $faker) {
 });
 ```
 
+php artisan migrate
+
