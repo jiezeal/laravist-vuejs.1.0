@@ -19,7 +19,7 @@ https://cdn.bootcss.com/vue/1.0.14/vue.min.js
 </script>
 ```
 
-数据双向绑定小例子  02.v-model.html
+数据双向绑定小例子  vue/02.v-model.html
 ```
 <div id="app">
     <h1>{{ message }}</h1>
