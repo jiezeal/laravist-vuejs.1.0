@@ -83,12 +83,12 @@ class TaskController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-public function destroy($id)
-{
-    Task::where('id', $id)->delete();
+    public function destroy($id)
+    {
+        Task::where('id', $id)->delete();
 
-    return \Response::json([
-        'message' => 'task deleted successfully'
-    ]);
-}
+        return \Response::json([
+            'message' => 'task deleted successfully'
+        ]);
+    }
 }
