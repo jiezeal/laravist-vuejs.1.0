@@ -16,6 +16,33 @@ Task.php
 protected $fillable = ['body'];
 ```
 
+TaskController.php
+```
+public function index()
+{
+    return Task::latest()->get();
+}
+
+public function store(Request $request)
+{
+    $task = Task::create($request->all());
+
+    return \Response::json([
+        'status' => 'success',
+        'task' => $task
+    ]);
+}
+
+public function destroy($id)
+{
+    Task::where('id', $id)->delete();
+
+    return \Response::json([
+        'message' => 'task deleted successfully'
+    ]);
+}
+```
+
 welcome.blade.php
 ```
 <!DOCTYPE html>
