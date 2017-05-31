@@ -52,7 +52,7 @@
 </script>
 ```
 
-事件处理小实例之点击累加  05.v-on.click.html
+事件处理小实例之点击累加  vue/05.v-on.click.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
