@@ -57,3 +57,15 @@
     </body>
 </html>
 ```
+
+web.php
+```
+Route::get('/', function () {
+    $tasks = \App\Task::latest()->get();
+    return view('welcome', compact('tasks'));
+});
+
+Route::get('api/tasks', function (){
+    return \App\Task::latest()->get();
+});
+```
