@@ -40,7 +40,28 @@ Route::get('/', function () {
 
 welcome.blade.php
 ```
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laravel</title>
+        <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Task</h1>
+            <ul class="list-group">
+                @foreach($tasks as $task)
+                    <li class="list-group-item">
+                        {{ $task->body }}
+                    </li>
+                @endforeach
+            </ul>
+        </div>
 
-
+        <script src="https://cdn.bootcss.com/vue/1.0.14/vue.min.js"></script>
+    </body>
+</html>
 ```
