@@ -2,3 +2,7 @@
 
 >https://github.com/pagekit/vue-resource
 
+
+```
+
+```
