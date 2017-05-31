@@ -49,7 +49,7 @@
 </script>
 ```
 
-组件化小实例 Likes与Dislikes  07.likes.html
+组件化小实例 Likes与Dislikes  vue/07.likes.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
