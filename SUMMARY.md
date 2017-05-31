@@ -8,3 +8,4 @@
 * [08 Vuejs组件化开发todo应用](08 Vuejs组件化开发todo应用.md)
 * [09 添加任务总数和删除任务](09 添加任务总数和删除任务.md)
 * [10 结合Jquery 实现 Vuejs Ajax](10 结合Jquery 实现 Vuejs Ajax.md)
+* [11 Vue resource 插件使用](11 Vue resource 插件使用.md)
