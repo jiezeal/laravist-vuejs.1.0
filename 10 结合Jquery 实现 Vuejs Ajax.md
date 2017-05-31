@@ -1,6 +1,6 @@
 #结合Jquery 实现 Vuejs Ajax
 
-新建一个laravel5.3项目
+新建一个laravel5.3项目  vue/laravel5.3
 
 php artisan make:model Task -m
 
