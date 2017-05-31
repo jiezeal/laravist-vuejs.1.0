@@ -65,3 +65,4 @@ welcome.blade.php
     </body>
 </html>
 ```
+
