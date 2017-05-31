@@ -1,6 +1,6 @@
 #Vuejs处理列表数据
 
-v-for小实例  09.v-for.html
+v-for小实例  vue/09.v-for.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
@@ -30,7 +30,7 @@ v-for小实例  09.v-for.html
 </script>
 ```
 
-:class小实例  10.class.html
+:class小实例  vue/10.class.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
@@ -121,7 +121,7 @@ v-for小实例  09.v-for.html
 </script>
 ```
 
-简单版todo应用  11.sample-todo.html
+简单版todo应用  vue/11.sample-todo.html
 ```
 <style>
     *{ margin: 0; padding: 0; }
