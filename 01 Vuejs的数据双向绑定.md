@@ -2,7 +2,7 @@
 
 https://cdn.bootcss.com/vue/1.0.14/vue.min.js
 
-入门小例子  01.hello-vue.html
+入门小例子  vue/01.hello-vue.html
 ```
 <div id="app">
     <h1>{{ message }}</h1>
