@@ -1,5 +1,7 @@
 #结合Jquery 实现 Vuejs Ajax
 
+
+
 php artisan make:model Task -m
 
 2017_05_31_012015_create_tasks_table.php
